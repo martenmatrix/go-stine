@@ -33,6 +33,21 @@ sudo cp ./stine /usr/bin/stine
 Create a file called `.stine.yaml` (either inside your home folder or the folder containing the program) (e.g. using `nano ~/.stine.yaml`) and edit it to fit your needs.
 See [config](#config) section for examples.
 
+### macOS
+Download and unpack the latest release:
+```bash
+# download
+curl -O -L https://github.com/irgendwr/go-stine/releases/latest/download/stine_Darwin_x86_64.tar.gz
+# unpack
+tar -xvzf stine_Darwin_x86_64.tar.gz
+# add to $PATH
+sudo cp ./stine ~/../../usr/local/bin
+# cleanup
+rm stine_Darwin_x86_64.tar.gz stine
+```
+Create a file called `.stine.yaml` (either inside your home folder or the folder containing the program) (e.g. using `nano ~/.stine.yaml`) and edit it to fit your needs.
+See [config](#config) section for examples.
+
 ## Config
 
 If no config file is specified using the `-c`/`--config` flag, the program looks for a file called `.stine.yaml` in the following paths:
