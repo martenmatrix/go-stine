@@ -76,6 +76,8 @@ Run `make`.
 
 - [felsenhower/stine_calendar_bot](https://github.com/felsenhower/stine_calendar_bot) - Automatic calendar download bot for STiNE
 - [Flova/ModernStineTheme](https://github.com/Flova/ModernStineTheme) - A better STiNE CSS theme
+- [Gaareth/stine-cli](https://github.com/Gaareth/stine-cli) - Get mail notifications about changes in your STiNE account
+- [martenmatrix/stine-api](https://github.com/martenmatrix/stine-api) - Easily interact with STiNE in Go
 
 ## Contributing
 
