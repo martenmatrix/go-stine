@@ -34,6 +34,7 @@ Create a file called `.stine.yaml` (either inside your home folder or the folder
 See [config](#config) section for examples.
 
 ### macOS
+
 Download and unpack the latest release:
 ```bash
 # download
