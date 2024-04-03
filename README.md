@@ -41,7 +41,7 @@ curl -O -L https://github.com/irgendwr/go-stine/releases/latest/download/stine_D
 # unpack
 tar -xvzf stine_Darwin_x86_64.tar.gz
 # add to $PATH
-sudo cp ./stine ~/../../usr/local/bin
+sudo cp ./stine /usr/local/bin
 # cleanup
 rm stine_Darwin_x86_64.tar.gz stine
 ```
